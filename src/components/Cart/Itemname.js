@@ -29,7 +29,7 @@ class Itemlist extends Component {
                         className="btn btn-warning snipcart-add-item"
                         data-item-id={node.id}
                         data-item-price={node.price}
-                        data-item-url="www.google.com"
+                        data-item-url="https://quirky-mcnulty-9253dd.netlify.app/"
                         data-item-name={node.tite}
                         data-item-file-guid={node.image.fluid}
                       >
