@@ -20,8 +20,9 @@ class Itemlist extends Component {
                     <Img fixed={node.image.fixed} />
                     <div className="flex-grow-1 px-3">
                       <div className="d-flex">
-                        <h6 className="mb-0 text-black">{node.name}</h6>
-                        <h6 className="mb-0 text-black">{node.tite}</h6>
+                        <h6 className="mb-0 text-black">
+                          {node.name}-{node.tite}
+                        </h6>
                         <h6 className="mb-0 text-success ml-3">
                           $$${node.price}
                         </h6>
