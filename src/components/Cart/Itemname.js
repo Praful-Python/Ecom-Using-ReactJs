@@ -20,7 +20,7 @@ class Itemlist extends Component {
                     <Img fixed={node.image.fixed} />
                     <div className="flex-grow-1 px-3">
                       <div className="d-flex">
-                        <h6 className="mb-0 text-black">{node.tite}</h6>
+                        <h6 className="mb-0 text-black">{node.name}</h6>
                         <h6 className="mb-0 text-success ml-3">
                           $$${node.price}
                         </h6>
@@ -29,8 +29,8 @@ class Itemlist extends Component {
                         className="btn btn-warning snipcart-add-item"
                         data-item-id={node.id}
                         data-item-price={node.price}
-                        data-item-url="https://quirky-mcnulty-9253dd.netlify.app/"
-                        data-item-name={node.tite}
+                        data-item-url="https://pypra-react-ecom.netlify.app/"
+                        data-item-name={node.name}
                         data-item-file-guid={node.image.fluid}
                       >
                         join now

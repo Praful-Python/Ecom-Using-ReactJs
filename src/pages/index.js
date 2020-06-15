@@ -38,6 +38,7 @@ export const query = graphql`
           id
           tite
           price
+          name
           image {
             fixed(width:200, height:200){
               ...GatsbyContentfulFixed_tracedSVG
