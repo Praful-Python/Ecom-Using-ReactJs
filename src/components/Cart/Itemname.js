@@ -22,7 +22,7 @@ class Itemlist extends Component {
                       <div className="d-flex">
                         <h6 className="mb-0 text-black">{node.tite}</h6>
                         <h6 className="mb-0 text-success ml-3">
-                          ${node.price}
+                          $$${node.price}
                         </h6>
                       </div>
                       <button
